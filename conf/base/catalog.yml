@@ -1,0 +1,39 @@
+raw_data:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/iar_reservaciones.csv
+
+preprocessed_data:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/iar_reservaciones_cleaned.csv
+
+clustered_data:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/clustered_data.csv
+
+cancellation_percentages:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/cancellation_percentages.csv
+
+median_values:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/median_values.csv
+
+mean_values:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/mean_values.csv
+
+agencia_distribution:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/agencia_distribution.csv
+
+canal_distribution:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/canal_distribution.csv
+
+iar_agencias:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/iar_agencias.csv
+
+iar_canales:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/iar_canales.csv
