@@ -18,12 +18,12 @@ pip install -r requirements.txt
 - Azure
     Incluir en credentials.yml los siguientes datos de tu cuenta azure:
     - account_name
-    - account_key
+    - [account_key](https://stackoverflow.com/questions/61706239/retrieve-blob-storage-connection-string-using-az-cli-or-python-sdk)
 
     Así mismo, incluir el nombre de tu contenedor de Azure Cloud Storage Account:
     - container_name
 
-## Como correr las pipelines
+## Como correr la pipeline
 A la altura del root del directorio
 ```
 kedro run
